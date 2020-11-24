@@ -21,11 +21,13 @@ namespace Exercise8
             RandomNumberGenerator.Initialize();
 
             // create two dice
-
+            Die die1 = new Die();
+            Die die2 = new Die();
             // tell the dice to roll themselves
-
+            die1.Roll();
+            die2.Roll();
             // print the top sides and the sum of the dice
-
+            Console.WriteLine($"Die 1: {die1.TopSide} die 2: {die2.TopSide} sum: {die1.TopSide + die2.TopSide}");
             Console.WriteLine();
         }
     }
