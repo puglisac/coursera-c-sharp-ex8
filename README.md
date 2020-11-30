@@ -34,4 +34,4 @@ Via command line:
 
 `$ git clone https://github.com/puglisac/coursera-c-sharp-ex8.git`  
 
-open MoviesApp.sln in [Visual Studio](https://visualstudio.microsoft.com/) and click Run to start.
+open Exercise8.sln in [Visual Studio](https://visualstudio.microsoft.com/) and click Run to start.
